@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,400;1,700&family=PT+Sans:wght@700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #EEEEEE;
+}
+.bottom{
+  background-color: white;
+  height: 200px;
+  width: 100%;
+}
+.box{
+  align-self:center;
+  height: auto;
+}
+.boxer{
+  display: flex;
+  justify-content: space-around;
+  background-color:#EEEEEE;
+  /* height: 600px; */
+  padding: 100px 20px 150px;
+  width: 100%;
+
+}
+
+section{
+  position: relative;
+  height: 350px;
+  width:400px ;
+  background-color: white;
+  border-radius: 2%;
+  padding: 20px;
+  box-shadow: ;
+}
+h1{
+  font-size: 4.5em;
+  color: blue;
+  font-family: 'Lato', sans-serif;
+  font-family: 'PT Sans', sans-serif;
+}
+.boxer p{
+  font-size: 1.5em;
+  font-family: 'Poppins', sans-serif;
+}
+
+input{
+     font-size:18px;
+     color: #F1F1F1;
+     padding: 15px;
+     height: 50px;
+     width: 100%;
+     margin-bottom: 10px;
+     border-radius: 10px;
+     border-color: #EEEEEE;
+}
+ .button1{
+   width: 100%;
+   background-color: #4649FF;
+   border:2px solid #4649FF;
+   height: 50px;
+   border-radius: 10px;
+   color: white;
+   font-size: 1.3em;
+   font-family:sans-serif;
+   font-weight: bolder;
+   cursor: pointer;
+ }
+ .button1:hover{
+   background-color: #5800FF;
+   border-color: #5800FF;
+ }
+ input:focus {
+    outline: none !important;
+    border:1px solid #4649FF;
+    box-shadow: 0 0 5px #719ECE;
+  }
+ a{
+   padding: 10px;
+   color:#4649FF;
+   font-size: .65em;
+   font-family:sans-serif;
+   text-decoration: none;
+   position: relative;
+  }
+ .button2{
+   height: 50px;
+   width: 55%;
+   font-size: 1em;
+   background-color:#5BB318;
+   border:1px solid #5BB318;
+   color: white;
+   margin: 20px 80px;
+   border-radius: 5px;
+   cursor: pointer;
+
+  }
+  .button2:hover{
+    background-color: #2B7A0B;
+    border-color: #2B7A0B;
+  }
+.rest{
+  font-family: sans-serif;
+  margin-left: 60%;
+  position: relative;
+  bottom:119px;
+}
+.bottom{
+  color:gray;
+  font-family: sans-serif;
+  word-spacing: 10px;
+  font-size: 12px;
+  padding: 50px;
+}
